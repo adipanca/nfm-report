@@ -1,0 +1,124 @@
+{
+  "label_map": {
+    "sbi_http2_dos": "sbi_http2_attack",
+    "sbi_attack_over_tls": "sbi_http2_attack"
+  },
+  "final_classes": [
+    "benign",
+    "dos_httpflood",
+    "dos_icmpflood",
+    "dos_slowrate",
+    "dos_synflood",
+    "dos_udpflood",
+    "gtpu_malformed",
+    "ngap_malformed",
+    "ngap_ngsetup_flood",
+    "pfcp_estab_flood",
+    "pfcp_rule_misconfig",
+    "pfcp_session_delete",
+    "pfcp_session_modify",
+    "recon_portscan",
+    "sbi_http2_attack",
+    "tls_handshake_flood"
+  ],
+  "n_final_classes": 16,
+  "per_class_pcap_counts": {
+    "benign": {
+      "n_pcap_files": 9,
+      "source_original_labels": [
+        "benign"
+      ]
+    },
+    "dos_httpflood": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "dos_httpflood"
+      ]
+    },
+    "dos_icmpflood": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "dos_icmpflood"
+      ]
+    },
+    "dos_slowrate": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "dos_slowrate"
+      ]
+    },
+    "dos_synflood": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "dos_synflood"
+      ]
+    },
+    "dos_udpflood": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "dos_udpflood"
+      ]
+    },
+    "gtpu_malformed": {
+      "n_pcap_files": 4,
+      "source_original_labels": [
+        "gtpu_malformed"
+      ]
+    },
+    "ngap_malformed": {
+      "n_pcap_files": 5,
+      "source_original_labels": [
+        "ngap_malformed"
+      ]
+    },
+    "ngap_ngsetup_flood": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "ngap_ngsetup_flood"
+      ]
+    },
+    "pfcp_estab_flood": {
+      "n_pcap_files": 4,
+      "source_original_labels": [
+        "pfcp_estab_flood"
+      ]
+    },
+    "pfcp_rule_misconfig": {
+      "n_pcap_files": 4,
+      "source_original_labels": [
+        "pfcp_rule_misconfig"
+      ]
+    },
+    "pfcp_session_delete": {
+      "n_pcap_files": 4,
+      "source_original_labels": [
+        "pfcp_session_delete"
+      ]
+    },
+    "pfcp_session_modify": {
+      "n_pcap_files": 4,
+      "source_original_labels": [
+        "pfcp_session_modify"
+      ]
+    },
+    "recon_portscan": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "recon_portscan"
+      ]
+    },
+    "sbi_http2_attack": {
+      "n_pcap_files": 8,
+      "source_original_labels": [
+        "sbi_attack_over_tls",
+        "sbi_http2_dos"
+      ]
+    },
+    "tls_handshake_flood": {
+      "n_pcap_files": 1,
+      "source_original_labels": [
+        "tls_handshake_flood"
+      ]
+    }
+  }
+}

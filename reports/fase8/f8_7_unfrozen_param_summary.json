@@ -1,0 +1,6 @@
+{
+  "trainable_params": 175212174,
+  "total_params": 175212174,
+  "per_device_batch_size": 16,
+  "grad_accum_steps": 2
+}

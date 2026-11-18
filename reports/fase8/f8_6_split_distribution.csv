@@ -1,0 +1,17 @@
+label,n_episodes,n_episodes_with_data,strategy,total_rows,train_rows,val_rows,test_rows
+benign,9,9,episode_time_ordered,143023,117160,10446,15417
+dos_httpflood,1,1,flow_level_random_fallback,12207,8545,1831,1831
+dos_icmpflood,1,1,flow_level_random_fallback,8805,6164,1321,1320
+dos_slowrate,1,1,flow_level_random_fallback,16041,11229,2406,2406
+dos_synflood,1,1,flow_level_random_fallback,5655,3958,848,849
+dos_udpflood,1,1,flow_level_random_fallback,9266,6486,1390,1390
+gtpu_malformed,4,4,episode_time_ordered,153,52,50,51
+ngap_malformed,5,0,NO_DATA,0,0,0,0
+ngap_ngsetup_flood,1,0,NO_DATA,0,0,0,0
+pfcp_estab_flood,4,4,episode_time_ordered,150,50,50,50
+pfcp_rule_misconfig,4,4,episode_time_ordered,150,51,50,49
+pfcp_session_delete,4,4,episode_time_ordered,147,50,49,48
+pfcp_session_modify,4,4,episode_time_ordered,151,51,50,50
+recon_portscan,1,1,flow_level_random_fallback,366,256,55,55
+sbi_http2_attack,8,8,episode_time_ordered,380,280,50,50
+tls_handshake_flood,1,1,flow_level_random_fallback,2279,1595,342,342

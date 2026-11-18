@@ -1,0 +1,57 @@
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh data/test/pretraining/raw data/test/pretraining/filtered
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh data/test/pretraining/filtered data/test/pretraining/split
+Started...
+Finished. Read and written 124 packets to 6 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh data/test/pretraining/split data/test/pretraining/extracted 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir data/test/pretraining/extracted/imap --output_dir data/test/pretraining/final/shards/imap
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:346: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+
+Total files: 6
+Started processing files, time: 2026-11-16 15:12:37.133916
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Finished processing files, time: 2026-11-16 15:12:37.193030
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/CollectTokensInFiles.py data/test/pretraining/final/shards/imap data/test/pretraining/final/combined/imap.arrow
+Found 6 Arrow files in the folder.
+
+PREPROCESS_EXIT=0
+--- output files ---
+data/test/pretraining/final/combined/imap.arrow
+data/test/pretraining/final/shards/imap/shard.3.arrow
+data/test/pretraining/final/shards/imap/shard.0.arrow
+data/test/pretraining/final/shards/imap/shard.2.arrow
+data/test/pretraining/final/shards/imap/shard.5.arrow
+data/test/pretraining/final/shards/imap/shard.4.arrow
+data/test/pretraining/final/shards/imap/shard.1.arrow

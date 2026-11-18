@@ -1,0 +1,175 @@
+{
+  "seed": 42,
+  "fractions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "per_class": [
+    {
+      "label": "benign",
+      "n_episodes": 9,
+      "n_episodes_with_data": 9,
+      "strategy": "episode_time_ordered",
+      "total_rows": 143023,
+      "train_rows": 117160,
+      "val_rows": 10446,
+      "test_rows": 15417
+    },
+    {
+      "label": "dos_httpflood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 12207,
+      "train_rows": 8545,
+      "val_rows": 1831,
+      "test_rows": 1831
+    },
+    {
+      "label": "dos_icmpflood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 8805,
+      "train_rows": 6164,
+      "val_rows": 1321,
+      "test_rows": 1320
+    },
+    {
+      "label": "dos_slowrate",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 16041,
+      "train_rows": 11229,
+      "val_rows": 2406,
+      "test_rows": 2406
+    },
+    {
+      "label": "dos_synflood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 5655,
+      "train_rows": 3958,
+      "val_rows": 848,
+      "test_rows": 849
+    },
+    {
+      "label": "dos_udpflood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 9266,
+      "train_rows": 6486,
+      "val_rows": 1390,
+      "test_rows": 1390
+    },
+    {
+      "label": "gtpu_malformed",
+      "n_episodes": 4,
+      "n_episodes_with_data": 4,
+      "strategy": "episode_time_ordered",
+      "total_rows": 153,
+      "train_rows": 52,
+      "val_rows": 50,
+      "test_rows": 51
+    },
+    {
+      "label": "ngap_malformed",
+      "n_episodes": 5,
+      "n_episodes_with_data": 0,
+      "strategy": "NO_DATA",
+      "total_rows": 0,
+      "train_rows": 0,
+      "val_rows": 0,
+      "test_rows": 0
+    },
+    {
+      "label": "ngap_ngsetup_flood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 0,
+      "strategy": "NO_DATA",
+      "total_rows": 0,
+      "train_rows": 0,
+      "val_rows": 0,
+      "test_rows": 0
+    },
+    {
+      "label": "pfcp_estab_flood",
+      "n_episodes": 4,
+      "n_episodes_with_data": 4,
+      "strategy": "episode_time_ordered",
+      "total_rows": 150,
+      "train_rows": 50,
+      "val_rows": 50,
+      "test_rows": 50
+    },
+    {
+      "label": "pfcp_rule_misconfig",
+      "n_episodes": 4,
+      "n_episodes_with_data": 4,
+      "strategy": "episode_time_ordered",
+      "total_rows": 150,
+      "train_rows": 51,
+      "val_rows": 50,
+      "test_rows": 49
+    },
+    {
+      "label": "pfcp_session_delete",
+      "n_episodes": 4,
+      "n_episodes_with_data": 4,
+      "strategy": "episode_time_ordered",
+      "total_rows": 147,
+      "train_rows": 50,
+      "val_rows": 49,
+      "test_rows": 48
+    },
+    {
+      "label": "pfcp_session_modify",
+      "n_episodes": 4,
+      "n_episodes_with_data": 4,
+      "strategy": "episode_time_ordered",
+      "total_rows": 151,
+      "train_rows": 51,
+      "val_rows": 50,
+      "test_rows": 50
+    },
+    {
+      "label": "recon_portscan",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 366,
+      "train_rows": 256,
+      "val_rows": 55,
+      "test_rows": 55
+    },
+    {
+      "label": "sbi_http2_attack",
+      "n_episodes": 8,
+      "n_episodes_with_data": 8,
+      "strategy": "episode_time_ordered",
+      "total_rows": 380,
+      "train_rows": 280,
+      "val_rows": 50,
+      "test_rows": 50
+    },
+    {
+      "label": "tls_handshake_flood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 2279,
+      "train_rows": 1595,
+      "val_rows": 342,
+      "test_rows": 342
+    }
+  ],
+  "grand_total": {
+    "train": 155927,
+    "val": 18938,
+    "test": 23908
+  }
+}

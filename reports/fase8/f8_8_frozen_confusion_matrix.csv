@@ -1,0 +1,15 @@
+true\pred,benign,dos_httpflood,dos_icmpflood,dos_slowrate,dos_synflood,dos_udpflood,gtpu_malformed,pfcp_estab_flood,pfcp_rule_misconfig,pfcp_session_delete,pfcp_session_modify,recon_portscan,sbi_http2_attack,tls_handshake_flood
+benign,15412,0,0,2,0,0,1,0,0,0,0,2,0,0
+dos_httpflood,9,0,729,437,650,0,0,0,0,0,0,6,0,0
+dos_icmpflood,4,0,676,0,638,0,0,0,0,0,0,2,0,0
+dos_slowrate,11,1,838,660,896,0,0,0,0,0,0,0,0,0
+dos_synflood,0,0,0,0,839,0,0,0,0,0,0,10,0,0
+dos_udpflood,2,0,631,0,752,0,0,0,0,0,0,5,0,0
+gtpu_malformed,0,0,0,0,0,0,51,0,0,0,0,0,0,0
+pfcp_estab_flood,0,0,0,0,0,0,0,50,0,0,0,0,0,0
+pfcp_rule_misconfig,0,0,0,0,0,0,0,49,0,0,0,0,0,0
+pfcp_session_delete,0,0,0,0,0,0,0,0,0,48,0,0,0,0
+pfcp_session_modify,0,0,0,0,0,0,0,0,0,0,50,0,0,0
+recon_portscan,0,0,0,0,0,0,0,0,0,0,0,55,0,0
+sbi_http2_attack,0,0,0,0,0,0,0,0,0,0,0,0,49,1
+tls_handshake_flood,3,0,0,0,0,0,0,0,0,0,0,0,0,339

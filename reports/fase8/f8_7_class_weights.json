@@ -1,0 +1,58 @@
+{
+  "benign": {
+    "count": 117160,
+    "weight": 0.09506352990865707
+  },
+  "dos_httpflood": {
+    "count": 8545,
+    "weight": 1.303410530090332
+  },
+  "dos_icmpflood": {
+    "count": 6164,
+    "weight": 1.8068856000900269
+  },
+  "dos_slowrate": {
+    "count": 11229,
+    "weight": 0.9918642044067383
+  },
+  "dos_synflood": {
+    "count": 3958,
+    "weight": 2.8139572143554688
+  },
+  "dos_udpflood": {
+    "count": 6486,
+    "weight": 1.7171820402145386
+  },
+  "gtpu_malformed": {
+    "count": 52,
+    "weight": 214.18544006347656
+  },
+  "pfcp_estab_flood": {
+    "count": 50,
+    "weight": 222.7528533935547
+  },
+  "pfcp_rule_misconfig": {
+    "count": 51,
+    "weight": 218.38514709472656
+  },
+  "pfcp_session_delete": {
+    "count": 50,
+    "weight": 222.7528533935547
+  },
+  "pfcp_session_modify": {
+    "count": 51,
+    "weight": 218.38514709472656
+  },
+  "recon_portscan": {
+    "count": 256,
+    "weight": 43.50641632080078
+  },
+  "sbi_http2_attack": {
+    "count": 280,
+    "weight": 39.77729415893555
+  },
+  "tls_handshake_flood": {
+    "count": 1595,
+    "weight": 6.982848167419434
+  }
+}

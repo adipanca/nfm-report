@@ -1,0 +1,2773 @@
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/tls_handshake_flood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/tls_handshake_flood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/tls_handshake_flood /home/mobisec/nfm-fase8/data/finetune_raw/split/tls_handshake_flood
+Started...
+Finished. Read and written 25408 packets to 2324 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/tls_handshake_flood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/tls_handshake_flood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/tls_handshake_flood/tls_handshake_flood__T5-05_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp --label tls_handshake_flood
+
+Total files: 2279
+Started processing files, time: 2026-11-16 17:05:30.971772
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 75 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Processed 76 files
+Finished processing files, time: 2026-11-16 17:05:32.799935
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/dos_udpflood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_udpflood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_udpflood /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_udpflood
+Started...
+Finished. Read and written 19027 packets to 9252 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_udpflood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_udpflood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_udpflood/dos_udpflood__T0-03_dn --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn --label dos_udpflood
+
+Total files: 9266
+Started processing files, time: 2026-11-16 17:05:34.284882
+Processed 308 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 308 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 308 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Processed 309 files
+Finished processing files, time: 2026-11-16 17:05:41.120155
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/ngap_malformed /home/mobisec/nfm-fase8/data/finetune_raw/filtered/ngap_malformed
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/ngap_malformed /home/mobisec/nfm-fase8/data/finetune_raw/split/ngap_malformed
+Started...
+Finished. Read and written 0 packets to 0 files
+Started...
+Finished. Read and written 0 packets to 0 files
+Started...
+Finished. Read and written 0 packets to 0 files
+Started...
+Finished. Read and written 0 packets to 0 files
+Started...
+Finished. Read and written 0 packets to 0 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/ngap_malformed /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e2_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/ngap_malformed/ngap_malformed__T3-03-e2_up --label ngap_malformed
+Total files: 0
+No valid tokenizable files found in /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e2_up. Skipping directory.
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e4_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/ngap_malformed/ngap_malformed__T3-03-e4_up --label ngap_malformed
+Total files: 0
+No valid tokenizable files found in /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e4_up. Skipping directory.
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e3_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/ngap_malformed/ngap_malformed__T3-03-e3_up --label ngap_malformed
+Total files: 0
+No valid tokenizable files found in /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e3_up. Skipping directory.
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e1_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/ngap_malformed/ngap_malformed__T3-03-e1_up --label ngap_malformed
+Total files: 0
+No valid tokenizable files found in /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03-e1_up. Skipping directory.
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/ngap_malformed/ngap_malformed__T3-03_up --label ngap_malformed
+Total files: 0
+No valid tokenizable files found in /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_malformed/ngap_malformed__T3-03_up. Skipping directory.
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/recon_portscan /home/mobisec/nfm-fase8/data/finetune_raw/filtered/recon_portscan
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/recon_portscan /home/mobisec/nfm-fase8/data/finetune_raw/split/recon_portscan
+Started...
+Finished. Read and written 499 packets to 366 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/recon_portscan /home/mobisec/nfm-fase8/data/finetune_raw/extracted/recon_portscan 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/recon_portscan/recon_portscan__T0-01_dn --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn --label recon_portscan
+
+Total files: 366
+Started processing files, time: 2026-11-16 17:05:43.973967
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 12 files
+Processed 13 files
+Processed 12 files
+Processed 13 files
+Processed 12 files
+Processed 13 files
+Processed 12 files
+Processed 12 files
+Processed 13 files
+Processed 13 files
+Processed 12 files
+Processed 12 files
+Processed 13 files
+Finished processing files, time: 2026-11-16 17:05:44.327637
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/sbi_http2_attack /home/mobisec/nfm-fase8/data/finetune_raw/filtered/sbi_http2_attack
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/sbi_http2_attack /home/mobisec/nfm-fase8/data/finetune_raw/split/sbi_http2_attack
+Started...
+Finished. Read and written 64534 packets to 50 files
+Started...
+Finished. Read and written 102943 packets to 50 files
+Started...
+Finished. Read and written 114181 packets to 50 files
+Started...
+Finished. Read and written 117509 packets to 50 files
+Started...
+Finished. Read and written 104312 packets to 50 files
+Started...
+Finished. Read and written 139488 packets to 40 files
+Started...
+Finished. Read and written 136259 packets to 50 files
+Started...
+Finished. Read and written 159996 packets to 40 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/sbi_http2_attack /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp --label sbi_http2_attack
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:45.381811
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:45.570054
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp --label sbi_http2_attack
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:45.829070
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:46.008796
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp --label sbi_http2_attack
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:46.251862
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:46.433541
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp --label sbi_http2_attack
+
+Total files: 40
+Started processing files, time: 2026-11-16 17:05:46.661122
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:46.844605
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp --label sbi_http2_attack
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:47.093801
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:47.295394
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp --label sbi_http2_attack
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:47.566394
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:47.759887
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_http2_dos__T4-01_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp --label sbi_http2_attack
+
+Total files: 40
+Started processing files, time: 2026-11-16 17:05:47.989039
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:48.188770
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp --label sbi_http2_attack
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:48.437721
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:48.616010
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/pfcp_rule_misconfig /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_rule_misconfig
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_rule_misconfig /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_rule_misconfig
+Started...
+Finished. Read and written 293 packets to 49 files
+Started...
+Finished. Read and written 295 packets to 50 files
+Started...
+Finished. Read and written 203 packets to 1 files
+Started...
+Finished. Read and written 300 packets to 50 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_rule_misconfig /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_rule_misconfig 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04_up --label pfcp_rule_misconfig
+
+Total files: 1
+Started processing files, time: 2026-11-16 17:05:49.431399
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:05:49.458823
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up --label pfcp_rule_misconfig
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:49.699290
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:49.836761
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up --label pfcp_rule_misconfig
+
+Total files: 49
+Started processing files, time: 2026-11-16 17:05:50.078030
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:50.212962
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up --label pfcp_rule_misconfig
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:50.452227
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:50.588285
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/pfcp_estab_flood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_estab_flood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_estab_flood /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_estab_flood
+Started...
+Finished. Read and written 300 packets to 50 files
+Started...
+Finished. Read and written 226 packets to 1 files
+Started...
+Finished. Read and written 291 packets to 49 files
+Started...
+Finished. Read and written 295 packets to 50 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_estab_flood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_estab_flood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up --label pfcp_estab_flood
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:51.524757
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:51.665194
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up --label pfcp_estab_flood
+
+Total files: 49
+Started processing files, time: 2026-11-16 17:05:51.934061
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:52.099851
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up --label pfcp_estab_flood
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:52.350596
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:52.472412
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_estab_flood/pfcp_estab_flood__T2-03_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03_up --label pfcp_estab_flood
+
+Total files: 1
+Started processing files, time: 2026-11-16 17:05:52.715560
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:05:52.744355
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/gtpu_malformed /home/mobisec/nfm-fase8/data/finetune_raw/filtered/gtpu_malformed
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/gtpu_malformed /home/mobisec/nfm-fase8/data/finetune_raw/split/gtpu_malformed
+Started...
+Finished. Read and written 713 packets to 50 files
+Started...
+Finished. Read and written 414 packets to 2 files
+Started...
+Finished. Read and written 727 packets to 51 files
+Started...
+Finished. Read and written 728 packets to 51 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/gtpu_malformed /home/mobisec/nfm-fase8/data/finetune_raw/extracted/gtpu_malformed 
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 721426348 exceeds packet length 503322540
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/gtpu_malformed/gtpu_malformed__T1-01-e2_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up --label gtpu_malformed
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:05:53.642868
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:53.783934
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/gtpu_malformed/gtpu_malformed__T1-01-e3_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up --label gtpu_malformed
+
+Total files: 51
+Started processing files, time: 2026-11-16 17:05:54.030657
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:54.180728
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/gtpu_malformed/gtpu_malformed__T1-01_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01_up --label gtpu_malformed
+
+Total files: 1
+Started processing files, time: 2026-11-16 17:05:54.437841
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:05:54.466741
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/gtpu_malformed/gtpu_malformed__T1-01-e1_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up --label gtpu_malformed
+
+Total files: 51
+Started processing files, time: 2026-11-16 17:05:54.714966
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:05:54.860321
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/dos_slowrate /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_slowrate
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_slowrate /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_slowrate
+Started...
+Finished. Read and written 85848 packets to 16517 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_slowrate /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_slowrate 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_slowrate/dos_slowrate__T0-06_dn --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn --label dos_slowrate
+
+Total files: 16041
+Started processing files, time: 2026-11-16 17:05:56.955124
+Processed 534 files
+Processed 534 files
+Processed 535 files
+Processed 534 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 534 files
+Processed 534 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 534 files
+Processed 535 files
+Processed 534 files
+Processed 535 files
+Processed 534 files
+Processed 534 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Processed 535 files
+Finished processing files, time: 2026-11-16 17:06:08.371375
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/dos_synflood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_synflood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_synflood /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_synflood
+Started...
+Finished. Read and written 16777 packets to 5641 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_synflood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_synflood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_synflood/dos_synflood__T0-02_dn --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn --label dos_synflood
+
+Total files: 5655
+Started processing files, time: 2026-11-16 17:06:09.597257
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 189 files
+Processed 189 files
+Processed 188 files
+Processed 189 files
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 188 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 188 files
+Processed 189 files
+Processed 188 files
+Processed 189 files
+Processed 189 files
+Processed 189 files
+Processed 188 files
+Finished processing files, time: 2026-11-16 17:06:14.501809
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/ngap_ngsetup_flood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/ngap_ngsetup_flood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/ngap_ngsetup_flood /home/mobisec/nfm-fase8/data/finetune_raw/split/ngap_ngsetup_flood
+Started...
+Finished. Read and written 0 packets to 0 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/ngap_ngsetup_flood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_ngsetup_flood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_ngsetup_flood/ngap_ngsetup_flood__T3-02_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/ngap_ngsetup_flood/ngap_ngsetup_flood__T3-02_up --label ngap_ngsetup_flood
+Total files: 0
+No valid tokenizable files found in /home/mobisec/nfm-fase8/data/finetune_raw/extracted/ngap_ngsetup_flood/ngap_ngsetup_flood__T3-02_up. Skipping directory.
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/pfcp_session_delete /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_session_delete
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_session_delete /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_session_delete
+Started...
+Finished. Read and written 212 packets to 1 files
+Started...
+Finished. Read and written 287 packets to 48 files
+Started...
+Finished. Read and written 291 packets to 49 files
+Started...
+Finished. Read and written 293 packets to 49 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_session_delete /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_delete 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_delete/pfcp_session_delete__T2-01_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01_up --label pfcp_session_delete
+
+Total files: 1
+Started processing files, time: 2026-11-16 17:06:16.220528
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:06:16.251983
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up --label pfcp_session_delete
+
+Total files: 49
+Started processing files, time: 2026-11-16 17:06:16.523380
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:06:16.660238
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up --label pfcp_session_delete
+
+Total files: 48
+Started processing files, time: 2026-11-16 17:06:16.920243
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:06:17.062118
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up --label pfcp_session_delete
+
+Total files: 49
+Started processing files, time: 2026-11-16 17:06:17.356129
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:06:17.499515
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/benign /home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign /home/mobisec/nfm-fase8/data/finetune_raw/split/benign
+[ERROR: PcapFileDevice.cpp: open:980                 ] Cannot read pcap file header. Unsupported format or invalid magic number: 0x6af82141
+[ERROR: PcapFileDevice.cpp: open:980                 ] Cannot read pcap file header. Unsupported format or invalid magic number: 0x0
+
+Started...
+Finished. Read and written 727 packets to 11 files
+Started...
+Finished. Read and written 405 packets to 9 files
+Started...
+Finished. Read and written 712 packets to 9 files
+Started...
+Finished. Read and written 59963 packets to 20095 files
+Started...
+Finished. Read and written 210452 packets to 20686 files
+Started...
+Finished. Read and written 122834 packets to 11737 files
+Started...
+Finished. Read and written 144493 packets to 45831 files
+Started...
+Finished. Read and written 224725 packets to 46576 files
+Started...
+Finished. Read and written 200628 packets to 28393 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/benign /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign 
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 167778476 exceeds packet length 151006474
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 136839191 exceeds packet length 23595112
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1836016492 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1836016492 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 23595112 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2536925497 exceeds packet length 1617430469
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 980575606 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:853       ] Invalid microsecond timestamp: 1073748096
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 980575606 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 23595112 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 23595112 is suspiciously large
+File /home/mobisec/nfm-fase8/data/finetune_raw/split/benign/benign__up_up_20261114_084907/benign__up_up_20261114_084907-connection-tcp_172-23-0-40_33128-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 167778476 exceeds packet length 151006474
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 256068565 is suspiciously large
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split/benign/benign__up_up_20261115_063717/benign__up_up_20261115_063717-connection-udp_172-23-0-40_2152-172-23-0-30_2152.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342194305 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 762605157 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342182612 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342185684 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342221030 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 151030634 exceeds packet length 76544
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1734431813 exceeds packet length 908206138
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342209766 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342180052 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1665206797 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 30254954 exceeds packet length 16896
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 762605157 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342188244 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 8304192 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1342217958 exceeds packet length 128476804
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342237907 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 151006474 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342178004 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1734431813 exceeds packet length 908206138
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__dn_dn_20261114_084907 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907 --label benign
+
+Total files: 40620
+Started processing files, time: 2026-11-16 17:06:23.585146
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+Processed 1000 files
+Processed 1354 files
+inputfile /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__dn_dn_20261114_084907/benign__dn_dn_20261114_084907-0002.pcap.1 has flows IPs 10.45.0.7,10.45.0.8,10.45.0.9,172.24.0.10
+Error in file /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__dn_dn_20261114_084907/benign__dn_dn_20261114_084907-0002.pcap.1 : inputfile /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__dn_dn_20261114_084907/benign__dn_dn_20261114_084907-0002.pcap.1 has flows IPs 10.45.0.7,10.45.0.8,10.45.0.9,172.24.0.10
+Processed 1000 files
+Processed 1354 files
+Finished processing files, time: 2026-11-16 17:06:54.578206
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__dn_dn_20261115_034212 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212 --label benign
+
+Total files: 20095
+Started processing files, time: 2026-11-16 17:06:54.903103
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 669 files
+Processed 670 files
+Processed 670 files
+Processed 670 files
+Processed 669 files
+Processed 670 files
+Processed 669 files
+Processed 669 files
+Processed 670 files
+Processed 670 files
+Processed 669 files
+Processed 670 files
+Processed 670 files
+Finished processing files, time: 2026-11-16 17:07:08.701726
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__cp_cp_20261115_063717 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717 --label benign
+
+Total files: 11
+Started processing files, time: 2026-11-16 17:07:08.959625
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:07:09.018057
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__up_up_20261115_034212 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212 --label benign
+
+Total files: 10446
+Started processing files, time: 2026-11-16 17:07:09.285435
+Processed 348 files
+Processed 349 files
+Processed 348 files
+Processed 348 files
+Processed 349 files
+Processed 349 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 349 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 349 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 348 files
+Processed 349 files
+Processed 348 files
+Finished processing files, time: 2026-11-16 17:07:17.518303
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__up_up_20261115_063717 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717 --label benign
+
+Total files: 15417
+Started processing files, time: 2026-11-16 17:07:17.796540
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 513 files
+Processed 513 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 513 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Processed 514 files
+Finished processing files, time: 2026-11-16 17:07:28.909662
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__cp_cp_20261114_084907 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907 --label benign
+
+Total files: 9
+Started processing files, time: 2026-11-16 17:07:29.167214
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:07:29.217243
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__up_up_20261114_084907 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907 --label benign
+
+Total files: 13539
+Started processing files, time: 2026-11-16 17:07:29.475129
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 452 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 452 files
+Processed 452 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 452 files
+Processed 452 files
+Processed 452 files
+Processed 452 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 452 files
+Processed 452 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Processed 451 files
+Finished processing files, time: 2026-11-16 17:07:39.574542
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__cp_cp_20261115_034212 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212 --label benign
+
+Total files: 9
+Started processing files, time: 2026-11-16 17:07:39.832930
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:07:39.883854
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/benign/benign__dn_dn_20261115_063717 --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717 --label benign
+
+Total files: 42878
+Started processing files, time: 2026-11-16 17:07:40.188667
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1430 files
+Processed 1000 files
+Processed 1429 files
+Processed 1000 files
+Processed 1430 files
+Finished processing files, time: 2026-11-16 17:08:09.260751
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/dos_icmpflood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_icmpflood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_icmpflood /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_icmpflood
+Started...
+Finished. Read and written 24690 packets to 8803 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_icmpflood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_icmpflood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_icmpflood/dos_icmpflood__T0-04_dn --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn --label dos_icmpflood
+
+Total files: 8805
+Started processing files, time: 2026-11-16 17:08:10.681672
+Processed 293 files
+Processed 293 files
+Processed 293 files
+Processed 293 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 293 files
+Processed 293 files
+Processed 293 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 294 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 293 files
+Processed 294 files
+Processed 294 files
+Finished processing files, time: 2026-11-16 17:08:17.088986
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/dos_httpflood /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_httpflood
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/dos_httpflood /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_httpflood
+Started...
+Finished. Read and written 59045 packets to 12276 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/dos_httpflood /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_httpflood 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/dos_httpflood/dos_httpflood__T0-05_dn --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn --label dos_httpflood
+
+Total files: 12207
+Started processing files, time: 2026-11-16 17:08:18.774606
+Processed 406 files
+Processed 406 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 406 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Processed 407 files
+Finished processing files, time: 2026-11-16 17:08:28.690800
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/finetune_raw/raw/pfcp_session_modify /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_session_modify
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/finetune_raw/filtered/pfcp_session_modify /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_session_modify
+Started...
+Finished. Read and written 238 packets to 1 files
+Started...
+Finished. Read and written 300 packets to 50 files
+Started...
+Finished. Read and written 297 packets to 50 files
+Started...
+Finished. Read and written 300 packets to 50 files
+
+Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/finetune_raw/split/pfcp_session_modify /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_modify 
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up --label pfcp_session_modify
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:08:29.595438
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:08:29.743507
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_modify/pfcp_session_modify__T2-02_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02_up --label pfcp_session_modify
+
+Total files: 1
+Started processing files, time: 2026-11-16 17:08:30.009846
+Processed 1 files
+Finished processing files, time: 2026-11-16 17:08:30.041079
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up --label pfcp_session_modify
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:08:30.298127
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:08:30.462789
+
+Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/finetune_raw/extracted/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up --output_dir /home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up --label pfcp_session_modify
+
+Total files: 50
+Started processing files, time: 2026-11-16 17:08:30.738313
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-16 17:08:30.894575
+
+EXIT=0
+--- shard tree ---
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261114_084907/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_034212/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__cp_cp_20261115_063717/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261114_084907/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_034212/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__dn_dn_20261115_063717/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261114_084907/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_034212/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/benign/benign__up_up_20261115_063717/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_httpflood/dos_httpflood__T0-05_dn/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_icmpflood/dos_icmpflood__T0-04_dn/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_slowrate/dos_slowrate__T0-06_dn/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_synflood/dos_synflood__T0-02_dn/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/dos_udpflood/dos_udpflood__T0-03_dn/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e1_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e2_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01-e3_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/gtpu_malformed/gtpu_malformed__T1-01_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e1_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e2_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03-e3_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_estab_flood/pfcp_estab_flood__T2-03_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e1_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e2_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04-e3_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_rule_misconfig/pfcp_rule_misconfig__T2-04_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e1_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e2_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01-e3_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_delete/pfcp_session_delete__T2-01_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e1_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e2_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02-e3_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/pfcp_session_modify/pfcp_session_modify__T2-02_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/recon_portscan/recon_portscan__T0-01_dn/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e1_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e2_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04-e3_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_attack_over_tls__T5-04_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e1_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e2_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01-e3_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/sbi_http2_attack/sbi_http2_dos__T4-01_cp/shard.9.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.0.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.1.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.10.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.11.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.12.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.13.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.14.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.15.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.16.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.17.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.18.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.19.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.2.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.20.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.21.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.22.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.23.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.24.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.25.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.26.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.27.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.28.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.29.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.3.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.4.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.5.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.6.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.7.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.8.arrow
+/home/mobisec/nfm-fase8/data/finetune_raw/final/shards/tls_handshake_flood/tls_handshake_flood__T5-05_cp/shard.9.arrow

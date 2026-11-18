@@ -1,0 +1,6 @@
+torch.__version__ = 2.15.0+cu132
+torch.version.cuda = 13.2
+torch.cuda.is_available() = True
+torch.cuda.get_device_name(0) = NVIDIA GeForce RTX 4070 Ti SUPER
+total_memory_gb = 15.99
+GATE_F8_0_PASS = True
