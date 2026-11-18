@@ -1,0 +1,19 @@
+[
+  "benign",
+  "dos_httpflood",
+  "dos_icmpflood",
+  "dos_slowrate",
+  "dos_synflood",
+  "dos_udpflood",
+  "gtpu_malformed",
+  "gtpu_teid_injection",
+  "n6_exfiltration",
+  "pfcp_estab_flood",
+  "pfcp_rule_misconfig",
+  "pfcp_session_delete",
+  "pfcp_session_modify",
+  "recon_portscan",
+  "sbi_http2_attack",
+  "sbi_nf_impersonation",
+  "tls_handshake_flood"
+]

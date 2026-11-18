@@ -66,10 +66,22 @@ def load_ground_truth():
     return gt
 
 
+import re
+
+_BENIGN_SESSION_RE = re.compile(r"^(?:cp_cp|dn_dn|up_up)_(\d{8}_\d{6})$")
+
+
 def parse_episode_id(folder_name):
     name = folder_name
     if "__" in name:
         _, name = name.split("__", 1)
+    # benign capture sessions are named "<iface>_<iface>_<timestamp>" (cp_cp_/dn_dn_/
+    # up_up_ are different interface taps of the SAME capture session, not separate
+    # episodes) -- extract just the shared timestamp so all interface files of one
+    # session group together into one episode.
+    m = _BENIGN_SESSION_RE.match(name)
+    if m:
+        return m.group(1)
     parts = name.rsplit("_", 1)
     if len(parts) == 2 and parts[1] in ("up", "dn", "cp"):
         name = parts[0]

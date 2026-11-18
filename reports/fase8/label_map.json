@@ -5,12 +5,17 @@
   },
   "final_classes": [
     "benign",
+    "bidding_down",
     "dos_httpflood",
     "dos_icmpflood",
     "dos_slowrate",
     "dos_synflood",
     "dos_udpflood",
     "gtpu_malformed",
+    "gtpu_teid_injection",
+    "n6_exfiltration",
+    "nas_replay_n1",
+    "nas_tamper_registration",
     "ngap_malformed",
     "ngap_ngsetup_flood",
     "pfcp_estab_flood",
@@ -19,14 +24,21 @@
     "pfcp_session_modify",
     "recon_portscan",
     "sbi_http2_attack",
+    "sbi_nf_impersonation",
     "tls_handshake_flood"
   ],
-  "n_final_classes": 16,
+  "n_final_classes": 22,
   "per_class_pcap_counts": {
     "benign": {
-      "n_pcap_files": 9,
+      "n_pcap_files": 3,
       "source_original_labels": [
         "benign"
+      ]
+    },
+    "bidding_down": {
+      "n_pcap_files": 16,
+      "source_original_labels": [
+        "bidding_down"
       ]
     },
     "dos_httpflood": {
@@ -63,6 +75,30 @@
       "n_pcap_files": 4,
       "source_original_labels": [
         "gtpu_malformed"
+      ]
+    },
+    "gtpu_teid_injection": {
+      "n_pcap_files": 8,
+      "source_original_labels": [
+        "gtpu_teid_injection"
+      ]
+    },
+    "n6_exfiltration": {
+      "n_pcap_files": 8,
+      "source_original_labels": [
+        "n6_exfiltration"
+      ]
+    },
+    "nas_replay_n1": {
+      "n_pcap_files": 8,
+      "source_original_labels": [
+        "nas_replay_n1"
+      ]
+    },
+    "nas_tamper_registration": {
+      "n_pcap_files": 16,
+      "source_original_labels": [
+        "nas_tamper_registration"
       ]
     },
     "ngap_malformed": {
@@ -112,6 +148,12 @@
       "source_original_labels": [
         "sbi_attack_over_tls",
         "sbi_http2_dos"
+      ]
+    },
+    "sbi_nf_impersonation": {
+      "n_pcap_files": 16,
+      "source_original_labels": [
+        "sbi_nf_impersonation"
       ]
     },
     "tls_handshake_flood": {

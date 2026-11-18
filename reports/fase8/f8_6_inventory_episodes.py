@@ -8,6 +8,7 @@ import csv
 import datetime
 import json
 import pathlib
+import re
 
 import pyarrow as pa
 import pyarrow.ipc as ipc
@@ -44,6 +45,9 @@ def parse_episode_id(label, folder_name):
     name = folder_name
     if "__" in name:
         _, name = name.split("__", 1)
+    m = re.match(r"^(?:cp_cp|dn_dn|up_up)_(\d{8}_\d{6})$", name)
+    if m:
+        return m.group(1)
     # strip trailing _<iface> (up/dn/cp)
     parts = name.rsplit("_", 1)
     if len(parts) == 2 and parts[1] in ("up", "dn", "cp"):

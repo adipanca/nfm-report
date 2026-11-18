@@ -1,0 +1,70 @@
+{
+  "benign": {
+    "before": 20597,
+    "after": 3000
+  },
+  "dos_httpflood": {
+    "before": 8545,
+    "after": 3000
+  },
+  "dos_icmpflood": {
+    "before": 6164,
+    "after": 3000
+  },
+  "dos_slowrate": {
+    "before": 11229,
+    "after": 3000
+  },
+  "dos_synflood": {
+    "before": 3958,
+    "after": 3000
+  },
+  "dos_udpflood": {
+    "before": 6486,
+    "after": 3000
+  },
+  "gtpu_malformed": {
+    "before": 52,
+    "after": 52
+  },
+  "gtpu_teid_injection": {
+    "before": 112,
+    "after": 112
+  },
+  "n6_exfiltration": {
+    "before": 108,
+    "after": 108
+  },
+  "pfcp_estab_flood": {
+    "before": 50,
+    "after": 50
+  },
+  "pfcp_rule_misconfig": {
+    "before": 51,
+    "after": 51
+  },
+  "pfcp_session_delete": {
+    "before": 50,
+    "after": 50
+  },
+  "pfcp_session_modify": {
+    "before": 51,
+    "after": 51
+  },
+  "recon_portscan": {
+    "before": 256,
+    "after": 256
+  },
+  "sbi_http2_attack": {
+    "before": 280,
+    "after": 280
+  },
+  "sbi_nf_impersonation": {
+    "before": 166,
+    "after": 166
+  },
+  "tls_handshake_flood": {
+    "before": 1595,
+    "after": 1595
+  }
+}

@@ -1,11 +1,16 @@
-Total episode-folders inventoried: 50
-  benign                    episodes=  9  total_rows=  143023
+Total episode-folders inventoried: 116
+  benign                    episodes=  3  total_rows=   29424
+  bidding_down              episodes= 16  total_rows=       0
   dos_httpflood             episodes=  1  total_rows=   12207
   dos_icmpflood             episodes=  1  total_rows=    8805
   dos_slowrate              episodes=  1  total_rows=   16041
   dos_synflood              episodes=  1  total_rows=    5655
   dos_udpflood              episodes=  1  total_rows=    9266
   gtpu_malformed            episodes=  4  total_rows=     153
+  gtpu_teid_injection       episodes=  8  total_rows=     145
+  n6_exfiltration           episodes=  8  total_rows=     141
+  nas_replay_n1             episodes=  8  total_rows=       0
+  nas_tamper_registration   episodes= 16  total_rows=       0
   ngap_malformed            episodes=  5  total_rows=       0
   ngap_ngsetup_flood        episodes=  1  total_rows=       0
   pfcp_estab_flood          episodes=  4  total_rows=     150
@@ -14,6 +19,7 @@ Total episode-folders inventoried: 50
   pfcp_session_modify       episodes=  4  total_rows=     151
   recon_portscan            episodes=  1  total_rows=     366
   sbi_http2_attack          episodes=  8  total_rows=     380
+  sbi_nf_impersonation      episodes= 16  total_rows=     227
   tls_handshake_flood       episodes=  1  total_rows=    2279
 
 Saved -> /home/mobisec/nfm-fase8/reports/fase8/f8_6_episode_inventory.csv

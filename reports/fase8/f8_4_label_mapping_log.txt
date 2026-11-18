@@ -1,11 +1,16 @@
-Final class count: 16
-  benign                    n_pcap_files=  9  from=['benign']
+Final class count: 22
+  benign                    n_pcap_files=  3  from=['benign']
+  bidding_down              n_pcap_files= 16  from=['bidding_down']
   dos_httpflood             n_pcap_files=  1  from=['dos_httpflood']
   dos_icmpflood             n_pcap_files=  1  from=['dos_icmpflood']
   dos_slowrate              n_pcap_files=  1  from=['dos_slowrate']
   dos_synflood              n_pcap_files=  1  from=['dos_synflood']
   dos_udpflood              n_pcap_files=  1  from=['dos_udpflood']
   gtpu_malformed            n_pcap_files=  4  from=['gtpu_malformed']
+  gtpu_teid_injection       n_pcap_files=  8  from=['gtpu_teid_injection']
+  n6_exfiltration           n_pcap_files=  8  from=['n6_exfiltration']
+  nas_replay_n1             n_pcap_files=  8  from=['nas_replay_n1']
+  nas_tamper_registration   n_pcap_files= 16  from=['nas_tamper_registration']
   ngap_malformed            n_pcap_files=  5  from=['ngap_malformed']
   ngap_ngsetup_flood        n_pcap_files=  1  from=['ngap_ngsetup_flood']
   pfcp_estab_flood          n_pcap_files=  4  from=['pfcp_estab_flood']
@@ -14,6 +19,7 @@ Final class count: 16
   pfcp_session_modify       n_pcap_files=  4  from=['pfcp_session_modify']
   recon_portscan            n_pcap_files=  1  from=['recon_portscan']
   sbi_http2_attack          n_pcap_files=  8  from=['sbi_attack_over_tls', 'sbi_http2_dos']
+  sbi_nf_impersonation      n_pcap_files= 16  from=['sbi_nf_impersonation']
   tls_handshake_flood       n_pcap_files=  1  from=['tls_handshake_flood']
 
 Saved -> /home/mobisec/nfm-fase8/reports/fase8/label_map.json

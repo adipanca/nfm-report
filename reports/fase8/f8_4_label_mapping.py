@@ -3,10 +3,20 @@
 
 Merges sbi_http2_dos + sbi_attack_over_tls into one class `sbi_http2_attack`
 (both are h2load HTTP/2-over-TLS traffic, near-identical; keeping them
-separate makes per-class metrics misleading). All other 15 classes (including
-the 4 separate PFCP classes) are kept as-is.
+separate makes per-class metrics misleading). All other classes are kept
+as-is -- this now also includes the 6 new classes added in the W1 (INTERIM)
+VM snapshot: bidding_down, gtpu_teid_injection, n6_exfiltration,
+nas_replay_n1, nas_tamper_registration, sbi_nf_impersonation. The script
+discovers label directories dynamically, so no code change was needed to
+pick these up -- LABEL_MAP only overrides the two sbi_* classes; everything
+else defaults to itself.
 
-Result: 16 final classes = benign + 15 attack classes.
+Result (original 17-class dataset): 16 final classes = benign + 15 attacks.
+Result (W1 23-class VM snapshot):    22 final classes = benign + 21 attacks
+(5 of which -- ngap_malformed, ngap_ngsetup_flood, bidding_down,
+nas_replay_n1, nas_tamper_registration -- run over SCTP and will come out
+NO_DATA at the F8.5/W4 preprocessing step until SCTP_SUPPORT (step b) lands;
+this is expected and documented, not a bug).
 
 Per user instruction: training uses the ORIGINAL (unmasked) PCAPs in
 data/labeled/ -- netFound's tokenizer config (DefaultConfigNoTCPOptions.json)

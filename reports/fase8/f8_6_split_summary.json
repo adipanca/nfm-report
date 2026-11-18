@@ -8,13 +8,23 @@
   "per_class": [
     {
       "label": "benign",
-      "n_episodes": 9,
-      "n_episodes_with_data": 9,
-      "strategy": "episode_time_ordered",
-      "total_rows": 143023,
-      "train_rows": 117160,
-      "val_rows": 10446,
-      "test_rows": 15417
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 29424,
+      "train_rows": 20597,
+      "val_rows": 4414,
+      "test_rows": 4413
+    },
+    {
+      "label": "bidding_down",
+      "n_episodes": 16,
+      "n_episodes_with_data": 0,
+      "strategy": "NO_DATA",
+      "total_rows": 0,
+      "train_rows": 0,
+      "val_rows": 0,
+      "test_rows": 0
     },
     {
       "label": "dos_httpflood",
@@ -75,6 +85,46 @@
       "train_rows": 52,
       "val_rows": 50,
       "test_rows": 51
+    },
+    {
+      "label": "gtpu_teid_injection",
+      "n_episodes": 8,
+      "n_episodes_with_data": 8,
+      "strategy": "episode_time_ordered",
+      "total_rows": 145,
+      "train_rows": 112,
+      "val_rows": 16,
+      "test_rows": 17
+    },
+    {
+      "label": "n6_exfiltration",
+      "n_episodes": 8,
+      "n_episodes_with_data": 8,
+      "strategy": "episode_time_ordered",
+      "total_rows": 141,
+      "train_rows": 108,
+      "val_rows": 18,
+      "test_rows": 15
+    },
+    {
+      "label": "nas_replay_n1",
+      "n_episodes": 8,
+      "n_episodes_with_data": 0,
+      "strategy": "NO_DATA",
+      "total_rows": 0,
+      "train_rows": 0,
+      "val_rows": 0,
+      "test_rows": 0
+    },
+    {
+      "label": "nas_tamper_registration",
+      "n_episodes": 16,
+      "n_episodes_with_data": 0,
+      "strategy": "NO_DATA",
+      "total_rows": 0,
+      "train_rows": 0,
+      "val_rows": 0,
+      "test_rows": 0
     },
     {
       "label": "ngap_malformed",
@@ -157,6 +207,16 @@
       "test_rows": 50
     },
     {
+      "label": "sbi_nf_impersonation",
+      "n_episodes": 16,
+      "n_episodes_with_data": 16,
+      "strategy": "episode_time_ordered",
+      "total_rows": 227,
+      "train_rows": 166,
+      "val_rows": 32,
+      "test_rows": 29
+    },
+    {
       "label": "tls_handshake_flood",
       "n_episodes": 1,
       "n_episodes_with_data": 1,
@@ -168,8 +228,8 @@
     }
   ],
   "grand_total": {
-    "train": 155927,
-    "val": 18938,
-    "test": 23908
+    "train": 59750,
+    "val": 12972,
+    "test": 12965
   }
 }
