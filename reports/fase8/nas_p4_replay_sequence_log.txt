@@ -1,0 +1,6 @@
+bidding_down: 222 associations analyzed, avg DATA-chunks/assoc=2.00, associations with >=1 duplicate-payload DATA pair=0 (0%)
+    DATA-chunk-count distribution: {2: 222}
+nas_replay_n1: 203 associations analyzed, avg DATA-chunks/assoc=2.00, associations with >=1 duplicate-payload DATA pair=0 (0%)
+    DATA-chunk-count distribution: {1: 1, 2: 202}
+nas_tamper_registration: 195 associations analyzed, avg DATA-chunks/assoc=1.99, associations with >=1 duplicate-payload DATA pair=0 (0%)
+    DATA-chunk-count distribution: {1: 1, 2: 194}
