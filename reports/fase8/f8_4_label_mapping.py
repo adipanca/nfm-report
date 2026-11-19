@@ -40,6 +40,13 @@ REPORT_DIR = REPO_ROOT / "reports" / "fase8"
 LABEL_MAP = {
     "sbi_http2_dos": "sbi_http2_attack",
     "sbi_attack_over_tls": "sbi_http2_attack",
+    # New merge (this run): F8.8/W6 confusion matrices showed pfcp_estab_flood and
+    # pfcp_rule_misconfig are near-indistinguishable at netFound's burst-token level
+    # (model collapsed to always predicting one, or split ~50/50 between them across
+    # both frozen/unfrozen regimes) -- treat them as one class rather than report
+    # misleading per-class metrics for two classes the model can't tell apart.
+    "pfcp_estab_flood": "pfcp_establishment_attack",
+    "pfcp_rule_misconfig": "pfcp_establishment_attack",
 }
 
 

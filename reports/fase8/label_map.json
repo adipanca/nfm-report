@@ -1,7 +1,9 @@
 {
   "label_map": {
     "sbi_http2_dos": "sbi_http2_attack",
-    "sbi_attack_over_tls": "sbi_http2_attack"
+    "sbi_attack_over_tls": "sbi_http2_attack",
+    "pfcp_estab_flood": "pfcp_establishment_attack",
+    "pfcp_rule_misconfig": "pfcp_establishment_attack"
   },
   "final_classes": [
     "benign",
@@ -18,8 +20,7 @@
     "nas_tamper_registration",
     "ngap_malformed",
     "ngap_ngsetup_flood",
-    "pfcp_estab_flood",
-    "pfcp_rule_misconfig",
+    "pfcp_establishment_attack",
     "pfcp_session_delete",
     "pfcp_session_modify",
     "recon_portscan",
@@ -27,10 +28,10 @@
     "sbi_nf_impersonation",
     "tls_handshake_flood"
   ],
-  "n_final_classes": 22,
+  "n_final_classes": 21,
   "per_class_pcap_counts": {
     "benign": {
-      "n_pcap_files": 3,
+      "n_pcap_files": 15,
       "source_original_labels": [
         "benign"
       ]
@@ -113,15 +114,10 @@
         "ngap_ngsetup_flood"
       ]
     },
-    "pfcp_estab_flood": {
-      "n_pcap_files": 4,
+    "pfcp_establishment_attack": {
+      "n_pcap_files": 8,
       "source_original_labels": [
-        "pfcp_estab_flood"
-      ]
-    },
-    "pfcp_rule_misconfig": {
-      "n_pcap_files": 4,
-      "source_original_labels": [
+        "pfcp_estab_flood",
         "pfcp_rule_misconfig"
       ]
     },

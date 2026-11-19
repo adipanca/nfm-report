@@ -1,0 +1,27 @@
+benign                         files=  15  packets=   3645427  bytes=   746565472
+bidding_down                   files=  16  packets=      2442  bytes=      315180
+dos_httpflood                  files=   1  packets=     59045  bytes=     7882334
+dos_icmpflood                  files=   1  packets=     24690  bytes=     1602810
+dos_slowrate                   files=   1  packets=     85848  bytes=    11843775
+dos_synflood                   files=   1  packets=     16777  bytes=     1197326
+dos_udpflood                   files=   1  packets=     19027  bytes=     1300549
+gtpu_malformed                 files=   4  packets=      2582  bytes=      228516
+gtpu_teid_injection            files=   8  packets=      1654  bytes=      180312
+n6_exfiltration                files=   8  packets=      4556  bytes=     3938862
+nas_replay_n1                  files=   8  packets=      2228  bytes=      287676
+nas_tamper_registration        files=  16  packets=      2136  bytes=      276244
+ngap_malformed                 files=   5  packets=      1713  bytes=      224434
+ngap_ngsetup_flood             files=   1  packets=      5082  bytes=      669924
+pfcp_estab_flood               files=   4  packets=      1112  bytes=      150216
+pfcp_rule_misconfig            files=   4  packets=      1091  bytes=      147381
+pfcp_session_delete            files=   4  packets=      1083  bytes=       80238
+pfcp_session_modify            files=   4  packets=      1135  bytes=      103381
+recon_portscan                 files=   1  packets=       499  bytes=       34537
+sbi_attack_over_tls            files=   4  packets=    478298  bytes=    62138225
+sbi_http2_dos                  files=   4  packets=    460924  bytes=    60003973
+sbi_nf_impersonation           files=  16  packets=      5698  bytes=     1321065
+tls_handshake_flood            files=   1  packets=     25408  bytes=     5338545
+
+Total classes: 23
+Saved -> /home/mobisec/nfm-fase8/reports/fase8/w1_class_distribution.csv
+EXIT=0

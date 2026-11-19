@@ -1,5 +1,5 @@
-Final class count: 22
-  benign                    n_pcap_files=  3  from=['benign']
+Final class count: 21
+  benign                    n_pcap_files= 15  from=['benign']
   bidding_down              n_pcap_files= 16  from=['bidding_down']
   dos_httpflood             n_pcap_files=  1  from=['dos_httpflood']
   dos_icmpflood             n_pcap_files=  1  from=['dos_icmpflood']
@@ -13,8 +13,7 @@ Final class count: 22
   nas_tamper_registration   n_pcap_files= 16  from=['nas_tamper_registration']
   ngap_malformed            n_pcap_files=  5  from=['ngap_malformed']
   ngap_ngsetup_flood        n_pcap_files=  1  from=['ngap_ngsetup_flood']
-  pfcp_estab_flood          n_pcap_files=  4  from=['pfcp_estab_flood']
-  pfcp_rule_misconfig       n_pcap_files=  4  from=['pfcp_rule_misconfig']
+  pfcp_establishment_attack n_pcap_files=  8  from=['pfcp_estab_flood', 'pfcp_rule_misconfig']
   pfcp_session_delete       n_pcap_files=  4  from=['pfcp_session_delete']
   pfcp_session_modify       n_pcap_files=  4  from=['pfcp_session_modify']
   recon_portscan            n_pcap_files=  1  from=['recon_portscan']
