@@ -227,7 +227,13 @@ def main():
     data_collator = DataCollatorForFlowClassification(training_tokenizer.pad_token_id, torch.long)
 
     logger.warning(f"Loading pretrained weights from {model_args.model_name_or_path}")
-    model = netFoundFinetuningModel.from_pretrained(model_args.model_name_or_path, config=config)
+    # protoEmbedding grew 18->133 rows for SCTP support (see SCTP_SUPPORT.md S5);
+    # the pretrained checkpoint still has the old 18-row tensor for that one small
+    # layer, so ignore_mismatched_sizes lets HF reinit just that mismatched tensor
+    # while loading everything else (base_transformer, etc.) from pretrained as usual.
+    model = netFoundFinetuningModel.from_pretrained(
+        model_args.model_name_or_path, config=config, ignore_mismatched_sizes=True
+    )
     model = utils.possibly_freeze(model, model_args)
 
     n_trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)

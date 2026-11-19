@@ -8,23 +8,13 @@
   "per_class": [
     {
       "label": "benign",
-      "n_episodes": 1,
-      "n_episodes_with_data": 1,
-      "strategy": "flow_level_random_fallback",
-      "total_rows": 29424,
-      "train_rows": 20597,
-      "val_rows": 4414,
-      "test_rows": 4413
-    },
-    {
-      "label": "bidding_down",
-      "n_episodes": 16,
-      "n_episodes_with_data": 0,
-      "strategy": "NO_DATA",
-      "total_rows": 0,
-      "train_rows": 0,
-      "val_rows": 0,
-      "test_rows": 0
+      "n_episodes": 5,
+      "n_episodes_with_data": 5,
+      "strategy": "episode_time_ordered",
+      "total_rows": 146188,
+      "train_rows": 88405,
+      "val_rows": 27841,
+      "test_rows": 29942
     },
     {
       "label": "dos_httpflood",
@@ -107,62 +97,12 @@
       "test_rows": 15
     },
     {
-      "label": "nas_replay_n1",
+      "label": "pfcp_establishment_attack",
       "n_episodes": 8,
-      "n_episodes_with_data": 0,
-      "strategy": "NO_DATA",
-      "total_rows": 0,
-      "train_rows": 0,
-      "val_rows": 0,
-      "test_rows": 0
-    },
-    {
-      "label": "nas_tamper_registration",
-      "n_episodes": 16,
-      "n_episodes_with_data": 0,
-      "strategy": "NO_DATA",
-      "total_rows": 0,
-      "train_rows": 0,
-      "val_rows": 0,
-      "test_rows": 0
-    },
-    {
-      "label": "ngap_malformed",
-      "n_episodes": 5,
-      "n_episodes_with_data": 0,
-      "strategy": "NO_DATA",
-      "total_rows": 0,
-      "train_rows": 0,
-      "val_rows": 0,
-      "test_rows": 0
-    },
-    {
-      "label": "ngap_ngsetup_flood",
-      "n_episodes": 1,
-      "n_episodes_with_data": 0,
-      "strategy": "NO_DATA",
-      "total_rows": 0,
-      "train_rows": 0,
-      "val_rows": 0,
-      "test_rows": 0
-    },
-    {
-      "label": "pfcp_estab_flood",
-      "n_episodes": 4,
-      "n_episodes_with_data": 4,
+      "n_episodes_with_data": 8,
       "strategy": "episode_time_ordered",
-      "total_rows": 150,
-      "train_rows": 50,
-      "val_rows": 50,
-      "test_rows": 50
-    },
-    {
-      "label": "pfcp_rule_misconfig",
-      "n_episodes": 4,
-      "n_episodes_with_data": 4,
-      "strategy": "episode_time_ordered",
-      "total_rows": 150,
-      "train_rows": 51,
+      "total_rows": 300,
+      "train_rows": 201,
       "val_rows": 50,
       "test_rows": 49
     },
@@ -228,8 +168,8 @@
     }
   ],
   "grand_total": {
-    "train": 59750,
-    "val": 12972,
-    "test": 12965
+    "train": 127658,
+    "val": 36349,
+    "test": 38444
   }
 }

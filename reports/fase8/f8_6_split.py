@@ -44,6 +44,20 @@ SPLIT_OUT_DIR = REPO_ROOT / "data" / "finetune_raw" / "final" / "split"
 SEED = 42
 TRAIN_FRAC, VAL_FRAC, TEST_FRAC = 0.70, 0.15, 0.15
 
+# Excluded from this training run (per user decision): the S6/W4 SCTP gate passed
+# (>0 rows) but the actual counts are too small to train on (1-16 rows/class --
+# the VM only generated a handful of short SCTP associations per class so far).
+# Data itself is untouched; these labels are just skipped here, same effect as
+# the earlier NO_DATA handling. Diagnosed separately, non-destructively, after
+# this training run (see reports/fase8/sctp_small_class_diagnosis.md).
+EXCLUDED_LABELS = {
+    "ngap_malformed",
+    "ngap_ngsetup_flood",
+    "bidding_down",
+    "nas_replay_n1",
+    "nas_tamper_registration",
+}
+
 TABLE_SCHEMA = pa.schema(
     [
         pa.field("flow_duration", pa.uint64()),
@@ -108,6 +122,8 @@ def main():
         if not label_dir.is_dir():
             continue
         label = label_dir.name
+        if label in EXCLUDED_LABELS:
+            continue
         per_label_groups[label] = {}
         for episode_dir in sorted(label_dir.iterdir()):
             if not episode_dir.is_dir():
@@ -253,6 +269,7 @@ def main():
         grand_total["val"] += r["val_rows"]
         grand_total["test"] += r["test_rows"]
     print(f"\nGrand total -> train={grand_total['train']} val={grand_total['val']} test={grand_total['test']}")
+    print(f"\nEXCLUDED from this run (SCTP, too few rows to train on): {sorted(EXCLUDED_LABELS)}")
 
     with open(REPORT_DIR / "f8_6_split_summary.json", "w") as f:
         json.dump(

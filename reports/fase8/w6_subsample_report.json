@@ -1,6 +1,6 @@
 {
   "benign": {
-    "before": 20597,
+    "before": 88405,
     "after": 3000
   },
   "dos_httpflood": {
@@ -35,13 +35,9 @@
     "before": 108,
     "after": 108
   },
-  "pfcp_estab_flood": {
-    "before": 50,
-    "after": 50
-  },
-  "pfcp_rule_misconfig": {
-    "before": 51,
-    "after": 51
+  "pfcp_establishment_attack": {
+    "before": 201,
+    "after": 201
   },
   "pfcp_session_delete": {
     "before": 50,

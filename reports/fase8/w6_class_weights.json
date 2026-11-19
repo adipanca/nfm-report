@@ -1,70 +1,66 @@
 {
   "benign": {
     "count": 3000,
-    "weight": 0.4072745144367218
+    "weight": 0.4348124861717224
   },
   "dos_httpflood": {
     "count": 3000,
-    "weight": 0.4072745144367218
+    "weight": 0.4348124861717224
   },
   "dos_icmpflood": {
     "count": 3000,
-    "weight": 0.4072745144367218
+    "weight": 0.4348124861717224
   },
   "dos_slowrate": {
     "count": 3000,
-    "weight": 0.4072745144367218
+    "weight": 0.4348124861717224
   },
   "dos_synflood": {
     "count": 3000,
-    "weight": 0.4072745144367218
+    "weight": 0.4348124861717224
   },
   "dos_udpflood": {
     "count": 3000,
-    "weight": 0.4072745144367218
+    "weight": 0.4348124861717224
   },
   "gtpu_malformed": {
     "count": 52,
-    "weight": 23.496606826782227
+    "weight": 25.085336685180664
   },
   "gtpu_teid_injection": {
     "count": 112,
-    "weight": 10.909138679504395
+    "weight": 11.646763801574707
   },
   "n6_exfiltration": {
     "count": 108,
-    "weight": 11.313180923461914
+    "weight": 12.078125
   },
-  "pfcp_estab_flood": {
-    "count": 50,
-    "weight": 24.43647003173828
-  },
-  "pfcp_rule_misconfig": {
-    "count": 51,
-    "weight": 23.957324981689453
+  "pfcp_establishment_attack": {
+    "count": 201,
+    "weight": 6.489738941192627
   },
   "pfcp_session_delete": {
     "count": 50,
-    "weight": 24.43647003173828
+    "weight": 26.0887508392334
   },
   "pfcp_session_modify": {
     "count": 51,
-    "weight": 23.957324981689453
+    "weight": 25.577205657958984
   },
   "recon_portscan": {
     "count": 256,
-    "weight": 4.772747993469238
+    "weight": 5.095458984375
   },
   "sbi_http2_attack": {
     "count": 280,
-    "weight": 4.3636555671691895
+    "weight": 4.658705234527588
   },
   "sbi_nf_impersonation": {
     "count": 166,
-    "weight": 7.360382556915283
+    "weight": 7.858057022094727
   },
   "tls_handshake_flood": {
     "count": 1595,
-    "weight": 0.7660335898399353
+    "weight": 0.8178291320800781
   }
 }
