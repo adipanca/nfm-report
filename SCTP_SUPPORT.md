@@ -78,3 +78,27 @@ claude
 # "Baca SCTP_SUPPORT.md. Kerjakan S0–S6 bertahap, berhenti di tiap GATE (S3, S5) untuk konfirmasi. Uji pada 1 pcap NGAP dulu sebelum semua kelas."
 ```
 Berhenti di **S3** (SCTP akhirnya >0 baris) dan **S5** (embedding/vocab) untuk konfirmasi — dua titik paling berisiko.
+
+---
+
+## HASIL FINAL — pc40 (payload cap SCTP 40B)
+
+**Status: STUDI SELESAI.** Setelah S0–S7 (SCTP berhasil diproses tapi 3 kelas NAS
+saling tertukar — lihat `reports/fase8/nas_triplet_investigation.md`), eksperimen
+lanjutan `pc40` (cap payload SCTP 12→40 byte + `max_burst_length` 73→109 +
+`strip_payload` selektif per-protokol) **ditetapkan sebagai hasil final proyek
+SCTP support**, menggantikan run 21-kelas sebelumnya sebagai checkpoint utama.
+
+- **Checkpoint utama**: `models/w6_finetune_unfrozen_pc40` (regime unfrozen/full
+  fine-tune — regime frozen tidak relevan untuk fix ini, lihat penjelasan di
+  laporan).
+- **Laporan utama**: `reports/fase8/w7_comparison_report_pc40.md`.
+- **Hasil**: macro-F1 test set 0,7126 → **0,8322**; ketiga kelas NAS
+  (`bidding_down`, `nas_replay_n1`, `nas_tamper_registration`) dari F1 0,000–0,317
+  menjadi **1,000** masing-masing, nol saling tertukar; 16 kelas non-SCTP tetap
+  ≥0,90 tanpa regresi dari cold-start global (`protoEmbedding` + `position_embeddings`
+  resize).
+- **Kode**: di-commit ke branch `feat/sctp-support` (netFound repo), di-push ke
+  `github.com/adipanca/netFound.git`.
+- Run baseline sebelumnya (`models/w6_finetune_*` tanpa suffix, tanpa payload SCTP
+  diperluas) **tetap disimpan** sebagai referensi historis, tidak dihapus.
