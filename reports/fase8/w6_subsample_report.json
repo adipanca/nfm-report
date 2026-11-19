@@ -1,7 +1,11 @@
 {
   "benign": {
-    "before": 88405,
+    "before": 88408,
     "after": 3000
+  },
+  "bidding_down": {
+    "before": 155,
+    "after": 155
   },
   "dos_httpflood": {
     "before": 8545,
@@ -34,6 +38,22 @@
   "n6_exfiltration": {
     "before": 108,
     "after": 108
+  },
+  "nas_replay_n1": {
+    "before": 139,
+    "after": 139
+  },
+  "nas_tamper_registration": {
+    "before": 129,
+    "after": 129
+  },
+  "ngap_malformed": {
+    "before": 110,
+    "after": 110
+  },
+  "ngap_ngsetup_flood": {
+    "before": 320,
+    "after": 320
   },
   "pfcp_establishment_attack": {
     "before": 201,

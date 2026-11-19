@@ -44,19 +44,14 @@ SPLIT_OUT_DIR = REPO_ROOT / "data" / "finetune_raw" / "final" / "split"
 SEED = 42
 TRAIN_FRAC, VAL_FRAC, TEST_FRAC = 0.70, 0.15, 0.15
 
-# Excluded from this training run (per user decision): the S6/W4 SCTP gate passed
-# (>0 rows) but the actual counts are too small to train on (1-16 rows/class --
-# the VM only generated a handful of short SCTP associations per class so far).
-# Data itself is untouched; these labels are just skipped here, same effect as
-# the earlier NO_DATA handling. Diagnosed separately, non-destructively, after
-# this training run (see reports/fase8/sctp_small_class_diagnosis.md).
-EXCLUDED_LABELS = {
-    "ngap_malformed",
-    "ngap_ngsetup_flood",
-    "bidding_down",
-    "nas_replay_n1",
-    "nas_tamper_registration",
-}
+# Previously excluded the 5 SCTP classes here (1-16 rows/class, too few to
+# train on with PcapSplitter's connection-mode -- see
+# reports/fase8/sctp_small_class_diagnosis.md). Now fixed by
+# pre_process_src/sctp_split_helper.py (per-association splitting), all 5
+# classes have >=100 rows (163-457) -- see f8_6_inventory_log.txt -- so they
+# are included in this FINAL 21-class run. Kept as an empty set (rather than
+# deleted) so a future run can exclude classes again by just listing them.
+EXCLUDED_LABELS = set()
 
 TABLE_SCHEMA = pa.schema(
     [

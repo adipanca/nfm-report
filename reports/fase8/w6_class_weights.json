@@ -1,66 +1,86 @@
 {
   "benign": {
     "count": 3000,
-    "weight": 0.4348124861717224
+    "weight": 0.3448253870010376
+  },
+  "bidding_down": {
+    "count": 155,
+    "weight": 6.674039840698242
   },
   "dos_httpflood": {
     "count": 3000,
-    "weight": 0.4348124861717224
+    "weight": 0.3448253870010376
   },
   "dos_icmpflood": {
     "count": 3000,
-    "weight": 0.4348124861717224
+    "weight": 0.3448253870010376
   },
   "dos_slowrate": {
     "count": 3000,
-    "weight": 0.4348124861717224
+    "weight": 0.3448253870010376
   },
   "dos_synflood": {
     "count": 3000,
-    "weight": 0.4348124861717224
+    "weight": 0.3448253870010376
   },
   "dos_udpflood": {
     "count": 3000,
-    "weight": 0.4348124861717224
+    "weight": 0.3448253870010376
   },
   "gtpu_malformed": {
     "count": 52,
-    "weight": 25.085336685180664
+    "weight": 19.89377212524414
   },
   "gtpu_teid_injection": {
     "count": 112,
-    "weight": 11.646763801574707
+    "weight": 9.236394882202148
   },
   "n6_exfiltration": {
     "count": 108,
-    "weight": 12.078125
+    "weight": 9.578483581542969
+  },
+  "nas_replay_n1": {
+    "count": 139,
+    "weight": 7.442274570465088
+  },
+  "nas_tamper_registration": {
+    "count": 129,
+    "weight": 8.019195556640625
+  },
+  "ngap_malformed": {
+    "count": 110,
+    "weight": 9.404329299926758
+  },
+  "ngap_ngsetup_flood": {
+    "count": 320,
+    "weight": 3.2327380180358887
   },
   "pfcp_establishment_attack": {
     "count": 201,
-    "weight": 6.489738941192627
+    "weight": 5.146647930145264
   },
   "pfcp_session_delete": {
     "count": 50,
-    "weight": 26.0887508392334
+    "weight": 20.689523696899414
   },
   "pfcp_session_modify": {
     "count": 51,
-    "weight": 25.577205657958984
+    "weight": 20.28384780883789
   },
   "recon_portscan": {
     "count": 256,
-    "weight": 5.095458984375
+    "weight": 4.04092264175415
   },
   "sbi_http2_attack": {
     "count": 280,
-    "weight": 4.658705234527588
+    "weight": 3.6945579051971436
   },
   "sbi_nf_impersonation": {
     "count": 166,
-    "weight": 7.858057022094727
+    "weight": 6.231784343719482
   },
   "tls_handshake_flood": {
     "count": 1595,
-    "weight": 0.8178291320800781
+    "weight": 0.6485744118690491
   }
 }

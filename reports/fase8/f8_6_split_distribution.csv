@@ -1,5 +1,6 @@
 label,n_episodes,n_episodes_with_data,strategy,total_rows,train_rows,val_rows,test_rows
-benign,5,5,episode_time_ordered,146188,88405,27841,29942
+benign,5,5,episode_time_ordered,146193,88408,27842,29943
+bidding_down,16,16,episode_time_ordered,222,155,33,34
 dos_httpflood,1,1,flow_level_random_fallback,12207,8545,1831,1831
 dos_icmpflood,1,1,flow_level_random_fallback,8805,6164,1321,1320
 dos_slowrate,1,1,flow_level_random_fallback,16041,11229,2406,2406
@@ -8,6 +9,10 @@ dos_udpflood,1,1,flow_level_random_fallback,9266,6486,1390,1390
 gtpu_malformed,4,4,episode_time_ordered,153,52,50,51
 gtpu_teid_injection,8,8,episode_time_ordered,145,112,16,17
 n6_exfiltration,8,8,episode_time_ordered,141,108,18,15
+nas_replay_n1,8,8,episode_time_ordered,203,139,24,40
+nas_tamper_registration,16,16,episode_time_ordered,195,129,40,26
+ngap_malformed,5,5,episode_time_ordered,163,110,16,37
+ngap_ngsetup_flood,1,1,flow_level_random_fallback,457,320,69,68
 pfcp_establishment_attack,8,8,episode_time_ordered,300,201,50,49
 pfcp_session_delete,4,4,episode_time_ordered,147,50,49,48
 pfcp_session_modify,4,4,episode_time_ordered,151,51,50,50

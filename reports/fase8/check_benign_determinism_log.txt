@@ -1,0 +1,336 @@
+=== run1 ===
+Started...
+Finished. Read and written 2589 packets to 11 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__cp_cp_20261118_093602.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__cp_cp_20261118_093602
+Started...
+Finished. Read and written 2641 packets to 11 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__cp_cp_20261118_092346.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__cp_cp_20261118_092346
+Started...
+Finished. Read and written 3134 packets to 11 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__cp_cp_20261118_091735.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__cp_cp_20261118_091735
+Started...
+Finished. Read and written 3086 packets to 11 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__cp_cp_20261118_094111.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__cp_cp_20261118_094111
+Started...
+Finished. Read and written 3677 packets to 11 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__cp_cp_20261118_092855.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__cp_cp_20261118_092855
+Started...
+Finished. Read and written 177857 packets to 16466 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__dn_dn_20261118_092346.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__dn_dn_20261118_092346
+Started...
+Finished. Read and written 215027 packets to 19956 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__dn_dn_20261118_093602.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__dn_dn_20261118_093602
+Started...
+Finished. Read and written 244929 packets to 22671 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__dn_dn_20261118_094111.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__dn_dn_20261118_094111
+Started...
+Finished. Read and written 278022 packets to 25753 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__dn_dn_20261118_092855.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__dn_dn_20261118_092855
+Started...
+Finished. Read and written 289986 packets to 26912 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__dn_dn_20261118_091735.pcap: sctp_associations=0 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__dn_dn_20261118_091735
+Started...
+Finished. Read and written 357803 packets to 16470 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__up_up_20261118_092346.pcap: sctp_associations=1 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_092346
+Started...
+Finished. Read and written 432154 packets to 19960 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__up_up_20261118_093602.pcap: sctp_associations=1 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_093602
+Started...
+Finished. Read and written 492364 packets to 22675 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__up_up_20261118_094111.pcap: sctp_associations=1 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_094111
+Started...
+Finished. Read and written 558969 packets to 25757 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__up_up_20261118_092855.pcap: sctp_associations=1 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_092855
+Started...
+Finished. Read and written 582507 packets to 26916 files
+/home/mobisec/nfm-fase8/data/finetune_raw/filtered/benign/benign__up_up_20261118_091735.pcap: sctp_associations=1 had_non_sctp_traffic=True -> /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_091735
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1969450852 exceeds packet length 1953391981
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543518313 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 342106725 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1864397423 exceeds packet length 1852402798
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 9908544 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 544502383 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1845494930 exceeds packet length 1845493760
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1342189281 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 139122061 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1931502702 exceeds packet length 1869639797
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1868832869 exceeds packet length 1701672291
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16777342 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1081479 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1673503911 exceeds packet length 1189195731
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1081346 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 738661174 exceeds packet length 1081554
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3405480180 exceeds packet length 963155590
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4265607184 exceeds packet length 16777344
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1081400 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4274220101 exceeds packet length 1899281633
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3099867118 exceeds packet length 318747954
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1073746048 exceeds packet length 17672
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1936028277 exceeds packet length 1882143790
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3135344146 exceeds packet length 2336620707
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2668234753 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1712070961 exceeds packet length 595771197
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16842752 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543518313 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2349467649 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4232884188 exceeds packet length 156885646
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 13627712 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1851859054 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3099658760 exceeds packet length 3090750933
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_094111/tmpfijqsjmj-connection-tcp_172-23-0-40_44300-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3515898594 exceeds packet length 1776153743
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 805963777 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1768386080 exceeds packet length 1009678446
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1768713839 exceeds packet length 1679844718
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_094111/tmpfijqsjmj-connection-tcp_172-23-0-40_36730-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1328785372 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 168296705 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3141246173 exceeds packet length 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:853       ] Invalid microsecond timestamp: 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1007304304 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1635020389 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1065631744 exceeds packet length 16842752
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16777392 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1965060719 exceeds packet length 1735289203
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 580979200 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543518313 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2490930572 exceeds packet length 985865434
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1819287668 exceeds packet length 1702060389
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1269570006 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1866874480 exceeds packet length 1852776562
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1433165390 exceeds packet length 142776295
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1081548 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16777250 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2759387659 exceeds packet length 2443884535
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3544186896 exceeds packet length 16777308
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_094111/tmpfijqsjmj-connection-tcp_172-23-0-40_42946-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_094111/tmpfijqsjmj-connection-tcp_172-23-0-40_36418-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2020501863 exceeds packet length 1697594414
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1897879032 exceeds packet length 349603107
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2923429904 exceeds packet length 16777246
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 134283520 exceeds packet length 100478986
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1701999988 exceeds packet length 792473203
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3677432560 exceeds packet length 2427143174
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 7208961 exceeds packet length 7208960
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1866874480 exceeds packet length 1852776562
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1851859054 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2002979336 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_094111/tmpfijqsjmj-connection-tcp_172-23-0-40_41298-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3721474936 exceeds packet length 2989638185
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4258531848 exceeds packet length 1173596257
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543452769 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 4019625584 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2305948162 exceeds packet length 1077049428
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1047542794 exceeds packet length 544370502
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 168296705 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1991710629 exceeds packet length 888013090
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3214412296 exceeds packet length 1722080350
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 729100332 exceeds packet length 324250935
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3596150418 exceeds packet length 2409022925
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16777398 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 15768896 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1869182049 exceeds packet length 1851859054
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1919895102 exceeds packet length 1819176736
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_093602/tmpiekmb7rk-connection-tcp_172-23-0-40_43124-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 779644521 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_093602/tmpiekmb7rk-connection-tcp_172-23-0-40_51154-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1769174304 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1852402798 is suspiciously large
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_093602/tmpiekmb7rk-connection-tcp_172-23-0-40_43974-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1953391981 exceeds packet length 1869182049
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 874052726 is suspiciously large
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_093602/tmpiekmb7rk-connection-tcp_172-23-0-40_35642-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3895149291 exceeds packet length 2905318460
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 168637237 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2052361671 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 168296705 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 7208960 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4161401666 exceeds packet length 2159054996
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1745364992 exceeds packet length 1275095048
+[ERROR: PcapFileDevice.cpp: readNextPacket:853       ] Invalid microsecond timestamp: 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 154694746 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1527384065 exceeds packet length 1120695564
+[ERROR: PcapFileDevice.cpp: readNextPacket:853       ] Invalid microsecond timestamp: 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2125387628 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543518313 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3019437433 exceeds packet length 1764600436
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 134283520 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1501184000 exceeds packet length 16842752
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543911521 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1494723209 exceeds packet length 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 315573134 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2598479517 exceeds packet length 1920617848
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1404266762 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 3312904838 is suspiciously large
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_093602/tmpiekmb7rk-connection-tcp_172-23-0-40_44098-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 124536098 exceeds packet length 1081422
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 14482752 is suspiciously large
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_091735/tmpfnqg85my-connection-tcp_172-23-0-40_50096-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 463386005 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2213494838 exceeds packet length 103023415
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2878147431 exceeds packet length 1016200306
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1965060719 exceeds packet length 1735289203
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543452769 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2469067443 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16777367 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1869639797 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 330454551 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3256465752 exceeds packet length 657333187
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1852402798 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 134283520 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1679844718 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1945660157 exceeds packet length 7208974
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 354203479 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1835347772 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4098060272 exceeds packet length 603766096
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 543452769 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2154306062 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2574071614 exceeds packet length 240723576
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 168296705 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1007290942 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 544367976 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 134283520 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3516811149 exceeds packet length 1125947759
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1931502702 exceeds packet length 1869639797
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 3083745537 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3056453346 exceeds packet length 3018649138
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3092401468 exceeds packet length 1942285546
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4101586703 exceeds packet length 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1769349221 exceeds packet length 175401331
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 792473208 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3247486938 exceeds packet length 152774998
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1145045008 exceeds packet length 16777389
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2089643650 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1701999988 exceeds packet length 792473203
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1866874480 exceeds packet length 1852776562
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1128267792 exceeds packet length 16777353
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4201183569 exceeds packet length 1295051066
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2821004184 exceeds packet length 2304380784
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 150931306 exceeds packet length 28160
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1769171318 exceeds packet length 1631324788
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3472910881 exceeds packet length 1399846589
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 544502383 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1970479204 exceeds packet length 1919905904
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3647507674 exceeds packet length 1819087324
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3730050227 exceeds packet length 2975982064
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1869639797 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3002442695 exceeds packet length 1136909153
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 873072641 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:853       ] Invalid microsecond timestamp: 1073746048
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 2315255808 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4216997863 exceeds packet length 3921974994
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1697594414 exceeds packet length 792477293
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 276874788 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 779314546 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3379084858 exceeds packet length 3277291627
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2884270160 exceeds packet length 276844014
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4224958505 exceeds packet length 1290695011
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1745381384 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 2225162580 exceeds packet length 1851034817
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1768713839 exceeds packet length 1679844718
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1851859054 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 78482442 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1104749578 exceeds packet length 805365180
+[ERROR: PcapFileDevice.cpp: readNextPacket:853       ] Invalid microsecond timestamp: 1073746048
+[ERROR: Packet.cpp: parsePacket:92                   ] Failed to create first layer! Possibly attempting to parse a RawPacket with no data.
+File /home/mobisec/nfm-fase8/data/finetune_raw/split_test_run1/benign/benign__up_up_20261118_092855/tmp0o_i94ui-connection-tcp_172-23-0-40_34304-172-23-0-30_80.pcap contains packets with unknown network layer protocol: 6
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 3233244729 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 3108047384 exceeds packet length 2199191291
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 4077520897 exceeds packet length 2460737791
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1952543854 exceeds packet length 544108393
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 544108393 exceeds packet length 543452769
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1953391981 exceeds packet length 1869182049
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 334010142 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1679844718 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1083258628 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1280016704 exceeds packet length 673505676
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1701734764 exceeds packet length 1668244512
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1496560478 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 1077217800 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:827       ] Packet captured length 1882143790 exceeds packet length 1007290942
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+[ERROR: PcapFileDevice.cpp: readNextPacket:835       ] Packet captured length 16842752 is suspiciously large
+[ERROR: PcapFileDevice.cpp: readNextPacket:813       ] Failed to read packet metadata
+run1 total rows: 146193

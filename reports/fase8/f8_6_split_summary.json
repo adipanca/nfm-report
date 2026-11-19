@@ -11,10 +11,20 @@
       "n_episodes": 5,
       "n_episodes_with_data": 5,
       "strategy": "episode_time_ordered",
-      "total_rows": 146188,
-      "train_rows": 88405,
-      "val_rows": 27841,
-      "test_rows": 29942
+      "total_rows": 146193,
+      "train_rows": 88408,
+      "val_rows": 27842,
+      "test_rows": 29943
+    },
+    {
+      "label": "bidding_down",
+      "n_episodes": 16,
+      "n_episodes_with_data": 16,
+      "strategy": "episode_time_ordered",
+      "total_rows": 222,
+      "train_rows": 155,
+      "val_rows": 33,
+      "test_rows": 34
     },
     {
       "label": "dos_httpflood",
@@ -97,6 +107,46 @@
       "test_rows": 15
     },
     {
+      "label": "nas_replay_n1",
+      "n_episodes": 8,
+      "n_episodes_with_data": 8,
+      "strategy": "episode_time_ordered",
+      "total_rows": 203,
+      "train_rows": 139,
+      "val_rows": 24,
+      "test_rows": 40
+    },
+    {
+      "label": "nas_tamper_registration",
+      "n_episodes": 16,
+      "n_episodes_with_data": 16,
+      "strategy": "episode_time_ordered",
+      "total_rows": 195,
+      "train_rows": 129,
+      "val_rows": 40,
+      "test_rows": 26
+    },
+    {
+      "label": "ngap_malformed",
+      "n_episodes": 5,
+      "n_episodes_with_data": 5,
+      "strategy": "episode_time_ordered",
+      "total_rows": 163,
+      "train_rows": 110,
+      "val_rows": 16,
+      "test_rows": 37
+    },
+    {
+      "label": "ngap_ngsetup_flood",
+      "n_episodes": 1,
+      "n_episodes_with_data": 1,
+      "strategy": "flow_level_random_fallback",
+      "total_rows": 457,
+      "train_rows": 320,
+      "val_rows": 69,
+      "test_rows": 68
+    },
+    {
       "label": "pfcp_establishment_attack",
       "n_episodes": 8,
       "n_episodes_with_data": 8,
@@ -168,8 +218,8 @@
     }
   ],
   "grand_total": {
-    "train": 127658,
-    "val": 36349,
-    "test": 38444
+    "train": 128514,
+    "val": 36532,
+    "test": 38650
   }
 }

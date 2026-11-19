@@ -1,7 +1,6 @@
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/raw/ngap_malformed /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/ngap_malformed
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/ngap_malformed /home/mobisec/nfm-fase8/data/test/sctp_dev/split/ngap_malformed
-Started...
-Finished. Read and written 402 packets to 1 files
+SCTP association split: /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/ngap_malformed/T3-03_up.pcap -> 38 associations in /home/mobisec/nfm-fase8/data/test/sctp_dev/split/ngap_malformed/T3-03_up/
 
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/3_extract_fields.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/split/ngap_malformed /home/mobisec/nfm-fase8/data/test/sctp_dev/extracted/ngap_malformed 
 Running command: python3 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py --conf_file configs/DefaultConfigNoTCPOptions.json --input_dir /home/mobisec/nfm-fase8/data/test/sctp_dev/extracted/ngap_malformed/T3-03_up --output_dir /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up --label ngap_malformed
@@ -11,11 +10,262 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
+/home/mobisec/nfm-fase8/netFound/pre_process_src/Tokenize.py:375: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
 
-Total files: 1
-Started processing files, time: 2026-11-18 18:25:50.082661
+Total files: 38
+Started processing files, time: 2026-11-19 13:20:51.873805
 Processed 1 files
-Finished processing files, time: 2026-11-18 18:25:50.139994
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 1 files
+Processed 2 files
+Processed 1 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Processed 2 files
+Finished processing files, time: 2026-11-19 13:20:52.048781
 
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/raw/sbi_http2_attack /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/sbi_http2_attack
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/sbi_http2_attack /home/mobisec/nfm-fase8/data/test/sctp_dev/split/sbi_http2_attack
@@ -266,7 +516,7 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
   first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
 
 Total files: 40
-Started processing files, time: 2026-11-18 18:25:51.133591
+Started processing files, time: 2026-11-19 13:20:53.389724
 Processed 1 files
 Processed 1 files
 Processed 1 files
@@ -297,7 +547,7 @@ Processed 2 files
 Processed 2 files
 Processed 2 files
 Processed 2 files
-Finished processing files, time: 2026-11-18 18:25:51.315062
+Finished processing files, time: 2026-11-19 13:20:53.564150
 
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/1_filter.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/raw/pfcp_session_delete /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/pfcp_session_delete
 Running command: /home/mobisec/nfm-fase8/netFound/pre_process_src/2_pcap_splitting.sh /home/mobisec/nfm-fase8/data/test/sctp_dev/filtered/pfcp_session_delete /home/mobisec/nfm-fase8/data/test/sctp_dev/split/pfcp_session_delete
@@ -311,13 +561,42 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
   first_packets.rename(columns={"rts": "first_packet_time"}, inplace=True)
 
 Total files: 1
-Started processing files, time: 2026-11-18 18:25:52.179177
+Started processing files, time: 2026-11-19 13:20:54.574105
 Processed 1 files
-Finished processing files, time: 2026-11-18 18:25:52.206602
+Finished processing files, time: 2026-11-19 13:20:54.600840
 
 EXIT=0
 --- arrow files ---
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.18.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.7.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.3.arrow
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.0.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.24.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.19.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.6.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.23.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.10.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.9.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.22.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.17.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.15.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.29.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.26.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.2.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.20.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.11.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.27.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.28.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.25.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.8.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.5.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.14.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.16.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.12.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.4.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.1.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.21.arrow
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.13.arrow
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/sbi_http2_attack/T5-04_cp/shard.18.arrow
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/sbi_http2_attack/T5-04_cp/shard.7.arrow
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/sbi_http2_attack/T5-04_cp/shard.3.arrow
@@ -350,7 +629,36 @@ EXIT=0
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/sbi_http2_attack/T5-04_cp/shard.13.arrow
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/pfcp_session_delete/T2-01_up/shard.0.arrow
 --- row counts ---
-/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.0.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.0.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.1.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.10.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.11.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.12.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.13.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.14.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.15.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.16.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.17.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.18.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.19.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.2.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.20.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.21.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.22.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.23.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.24.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.25.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.26.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.27.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.28.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.29.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.3.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.4.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.5.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.6.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.7.arrow: 2 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.8.arrow: 1 rows
+/home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/ngap_malformed/T3-03_up/shard.9.arrow: 1 rows
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/pfcp_session_delete/T2-01_up/shard.0.arrow: 1 rows
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/sbi_http2_attack/T5-04_cp/shard.0.arrow: 2 rows
 /home/mobisec/nfm-fase8/data/test/sctp_dev/final/shards/sbi_http2_attack/T5-04_cp/shard.1.arrow: 2 rows

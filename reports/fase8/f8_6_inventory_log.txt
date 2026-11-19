@@ -1,6 +1,6 @@
 Total episode-folders inventoried: 128
-  benign                    episodes= 15  total_rows=  146188
-  bidding_down              episodes= 16  total_rows=      16
+  benign                    episodes= 15  total_rows=  146193
+  bidding_down              episodes= 16  total_rows=     222
   dos_httpflood             episodes=  1  total_rows=   12207
   dos_icmpflood             episodes=  1  total_rows=    8805
   dos_slowrate              episodes=  1  total_rows=   16041
@@ -9,10 +9,10 @@ Total episode-folders inventoried: 128
   gtpu_malformed            episodes=  4  total_rows=     153
   gtpu_teid_injection       episodes=  8  total_rows=     145
   n6_exfiltration           episodes=  8  total_rows=     141
-  nas_replay_n1             episodes=  8  total_rows=       8
-  nas_tamper_registration   episodes= 16  total_rows=      16
-  ngap_malformed            episodes=  5  total_rows=       5
-  ngap_ngsetup_flood        episodes=  1  total_rows=       1
+  nas_replay_n1             episodes=  8  total_rows=     203
+  nas_tamper_registration   episodes= 16  total_rows=     195
+  ngap_malformed            episodes=  5  total_rows=     163
+  ngap_ngsetup_flood        episodes=  1  total_rows=     457
   pfcp_establishment_attack episodes=  8  total_rows=     300
   pfcp_session_delete       episodes=  4  total_rows=     147
   pfcp_session_modify       episodes=  4  total_rows=     151

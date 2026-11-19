@@ -1,11 +1,12 @@
-train: 127658 rows -> /home/mobisec/nfm-fase8/data/finetune_raw/final/split/train.arrow
-val: 36349 rows -> /home/mobisec/nfm-fase8/data/finetune_raw/final/split/val.arrow
-test: 38444 rows -> /home/mobisec/nfm-fase8/data/finetune_raw/final/split/test.arrow
+train: 128514 rows -> /home/mobisec/nfm-fase8/data/finetune_raw/final/split/train.arrow
+val: 36532 rows -> /home/mobisec/nfm-fase8/data/finetune_raw/final/split/val.arrow
+test: 38650 rows -> /home/mobisec/nfm-fase8/data/finetune_raw/final/split/test.arrow
 
 Per-class distribution saved -> /home/mobisec/nfm-fase8/reports/fase8/f8_6_split_distribution.csv
 
 label                     strategy                        total    train      val     test
-benign                    episode_time_ordered           146188    88405    27841    29942
+benign                    episode_time_ordered           146193    88408    27842    29943
+bidding_down              episode_time_ordered              222      155       33       34
 dos_httpflood             flow_level_random_fallback      12207     8545     1831     1831
 dos_icmpflood             flow_level_random_fallback       8805     6164     1321     1320
 dos_slowrate              flow_level_random_fallback      16041    11229     2406     2406
@@ -14,6 +15,10 @@ dos_udpflood              flow_level_random_fallback       9266     6486     139
 gtpu_malformed            episode_time_ordered              153       52       50       51
 gtpu_teid_injection       episode_time_ordered              145      112       16       17
 n6_exfiltration           episode_time_ordered              141      108       18       15
+nas_replay_n1             episode_time_ordered              203      139       24       40
+nas_tamper_registration   episode_time_ordered              195      129       40       26
+ngap_malformed            episode_time_ordered              163      110       16       37
+ngap_ngsetup_flood        flow_level_random_fallback        457      320       69       68
 pfcp_establishment_attack episode_time_ordered              300      201       50       49
 pfcp_session_delete       episode_time_ordered              147       50       49       48
 pfcp_session_modify       episode_time_ordered              151       51       50       50
@@ -22,7 +27,7 @@ sbi_http2_attack          episode_time_ordered              380      280       5
 sbi_nf_impersonation      episode_time_ordered              227      166       32       29
 tls_handshake_flood       flow_level_random_fallback       2279     1595      342      342
 
-Grand total -> train=127658 val=36349 test=38444
+Grand total -> train=128514 val=36532 test=38650
 
-EXCLUDED from this run (SCTP, too few rows to train on): ['bidding_down', 'nas_replay_n1', 'nas_tamper_registration', 'ngap_malformed', 'ngap_ngsetup_flood']
+EXCLUDED from this run (SCTP, too few rows to train on): []
 EXIT=0

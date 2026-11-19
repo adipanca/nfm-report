@@ -1,5 +1,6 @@
 [
   "benign",
+  "bidding_down",
   "dos_httpflood",
   "dos_icmpflood",
   "dos_slowrate",
@@ -8,6 +9,10 @@
   "gtpu_malformed",
   "gtpu_teid_injection",
   "n6_exfiltration",
+  "nas_replay_n1",
+  "nas_tamper_registration",
+  "ngap_malformed",
+  "ngap_ngsetup_flood",
   "pfcp_establishment_attack",
   "pfcp_session_delete",
   "pfcp_session_modify",
