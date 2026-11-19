@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test PCAP_LINKS_SOLO
+-- Performing Test PCAP_LINKS_SOLO - Success
+-- Looking for pcap_set_immediate_mode
+-- Looking for pcap_set_immediate_mode - found
+-- Looking for pcap_list_tstamp_types
+-- Looking for pcap_list_tstamp_types - found
+-- Looking for pcap_set_tstamp_precision
+-- Looking for pcap_set_tstamp_precision - found
+-- Found PCAP: /usr/lib/x86_64-linux-gnu/libpcap.so (found version "1.10.4 (with TPACKET_V3)") 
+-- Configuring done (3.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/build
+[ 25%] Building CXX object CMakeFiles/1_filter.dir/1_filter/1_filter.cpp.o
+/home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/1_filter/1_filter.cpp: In function ‘int main(int, char**)’:
+/home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/1_filter/1_filter.cpp:14:54: warning: ‘static pcpp::IFileReaderDevice* pcpp::IFileReaderDevice::getReader(const std::string&)’ is deprecated: Prefer `tryCreateReader` due to selection of reader based on file content. [-Wdeprecated-declarations]
+   14 |     auto *reader = pcpp::IFileReaderDevice::getReader(argv[1]);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/1_filter/1_filter.cpp:1:
+/usr/local/pcapplusplus/include/pcapplusplus/PcapFileDevice.h:120:43: note: declared here
+  120 |                 static IFileReaderDevice* getReader(const std::string& fileName);
+      |                                           ^~~~~~~~~
+[ 50%] Linking CXX executable 1_filter
+[ 50%] Built target 1_filter
+[ 75%] Building CXX object CMakeFiles/3_field_extraction.dir/3_field_extraction/3_field_extraction.cpp.o
+/home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/3_field_extraction/3_field_extraction.cpp: In function ‘int process_file(std::string, std::string, bool, bool)’:
+/home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/3_field_extraction/3_field_extraction.cpp:49:54: warning: ‘static pcpp::IFileReaderDevice* pcpp::IFileReaderDevice::getReader(const std::string&)’ is deprecated: Prefer `tryCreateReader` due to selection of reader based on file content. [-Wdeprecated-declarations]
+   49 |     auto *reader = pcpp::IFileReaderDevice::getReader(input_file);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+In file included from /home/mobisec/nfm-fase8/netFound/pre_process_src/packets_processing_src/3_field_extraction/3_field_extraction.cpp:3:
+/usr/local/pcapplusplus/include/pcapplusplus/PcapFileDevice.h:120:43: note: declared here
+  120 |                 static IFileReaderDevice* getReader(const std::string& fileName);
+      |                                           ^~~~~~~~~
+[100%] Linking CXX executable 3_field_extraction
+[100%] Built target 3_field_extraction
+BUILD_EXIT=0
